@@ -1,0 +1,134 @@
+body{
+    background-color: antiquewhite;
+}
+header{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
+.nav{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.headerleft{
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 600px;
+    gap: 20px;
+}
+.headerright{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.h1{
+    margin-right: 500px;
+}
+.cards1{
+    display: flex;
+    gap: 60px;
+}
+.cards2{
+    display: flex;
+    gap: 60px;
+}
+
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    max-width: 300px;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .cardcontainer {
+    padding: 2px 16px;
+    background-color: white;
+  }
+  .cardamt{
+    display: flex;
+    align-items: baseline;
+  }
+.cardss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 40px;
+}
+.button1{
+    background-color: rgba(233, 146, 250, 0.54);
+    border: none;
+    color: rgb(148, 37, 252);
+    padding: 3px;
+    font-size: 12px;
+}
+.button2{
+    color: rgb(148, 37, 252);
+    background-color: white;
+    border: 1px solid grey;
+    padding: 8px;
+}
+.button3{
+    background-color: rgb(155, 37, 229);
+    padding: 8px;
+    border: none;
+    color: white;
+}
+.button4{
+    padding: 10px;
+    border: 1px solid grey;
+}
+#drop1{
+    border: none;
+    background-color: antiquewhite;
+}
+.info{
+    display: flex;
+    flex-flow: row wrap;
+    border: 2px solid white;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    gap: 35px;
+    padding: 15px;
+}
+.location{
+    margin-left: 20px ;
+    padding-right: 20px;
+    border-right: 2px solid lightslategray;
+    font-size: 20px;
+}
+span{
+    padding-right: 20px;
+}
+.manageproperty{
+    border: none;
+}
+.searchbutton{
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    color: white;
+    background-color: rgb(155, 37, 229);
+}
+
